@@ -1,1 +1,21 @@
 /* Add CSS Styling */
+
+#blue {
+    color: blue;
+    font-size: 36px;
+}
+
+#super-green {
+    background-color: lightgreen;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.cool {
+    font-size: 24px;
+}
+
+.odd {
+    background-color: rgb(255, 179, 191);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
