@@ -71,13 +71,13 @@ button.cancel {
 /* Solution */
 
 .flex-column-left {
-  margin-right: 12px;
+  margin-right: 16px;
 }
 
 .modal {
   display: flex;
   flex-direction: row;
-  padding: 16px;
+  padding: 20px;
 }
 
 .text {
