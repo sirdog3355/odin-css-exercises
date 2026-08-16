@@ -27,3 +27,80 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* Debugging CSS code */
+
+/* .card {
+  border: 2px solid blue;
+}
+
+.cards {
+  border: 2px solid black;
+}
+
+.header, .sidebar {
+  border: 2px solid red;
+} */
+
+/* Maintenance */
+
+ul {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+/* Solution */
+
+.header {
+  display: flex;
+  height: 48px;
+}
+
+
+#header-text {
+  font-size: 32px;
+  font-weight: 900;
+  align-self: center;
+  padding: 16px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+    flex-shrink: 0;
+    padding: 16px;
+}
+
+.cards {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 48px;
+}
+
+.card {
+  margin: 8px;
+  padding: 8px;
+  flex-grow: 1;
+  width: 300px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
